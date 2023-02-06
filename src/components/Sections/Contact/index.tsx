@@ -15,12 +15,7 @@ import ContactForm from './ContactForm';
 const ContactValueMap: Record<ContactType, ContactValue> = {
   [ContactType.Email]: {Icon: MailIcon, srLabel: 'Email'},
   [ContactType.Phone]: {Icon: DeviceMobileIcon, srLabel: 'Phone'},
-  [ContactType.Location]: {Icon: LocationMarkerIcon, srLabel: 'Location'},
-  [ContactType.Github]: {Icon: GithubIcon, srLabel: 'Github'},
   [ContactType.LinkedIn]: {Icon: LinkedInIcon, srLabel: 'LinkedIn'},
-  [ContactType.Facebook]: {Icon: FacebookIcon, srLabel: 'Facebook'},
-  [ContactType.Twitter]: {Icon: TwitterIcon, srLabel: 'Twitter'},
-  [ContactType.Instagram]: {Icon: InstagramIcon, srLabel: 'Instagram'},
 };
 
 const Contact: FC = memo(() => {
