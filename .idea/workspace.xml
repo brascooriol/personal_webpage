@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc8514b6-279e-4296-83d1-ab634fe8070b" name="Changes" comment="- fix water tunnel 2" />
+    <list default="true" id="bc8514b6-279e-4296-83d1-ab634fe8070b" name="Changes" comment="- fix drone image" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675695984122</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="- fix drone image">
+      <created>1675696121859</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1675696121859</updated>
+    </task>
+    <task id="LOCAL-00023" summary="- fix drone image">
+      <created>1675696405445</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1675696405445</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +220,7 @@
     <MESSAGE value="- Fix contact type" />
     <MESSAGE value="- Fix testimonials" />
     <MESSAGE value="- fix water tunnel 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="- fix water tunnel 2" />
+    <MESSAGE value="- fix drone image" />
+    <option name="LAST_COMMIT_MESSAGE" value="- fix drone image" />
   </component>
 </project>

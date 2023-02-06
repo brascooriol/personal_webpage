@@ -202,7 +202,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Building a fully operational drone',
     description: 'Building from scratch and using Pixhawk a fully operational drone.',
-//     url: 'https://www.linkedin.com/feed/update/urn:li:activity:6584783844724084736/',
+    url: 'https://www.linkedin.com/in/brascooriol/',
     image: drone_image,
   },
 ];
