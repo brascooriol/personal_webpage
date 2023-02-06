@@ -15,7 +15,7 @@ import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import stream1Honey from '../images/portfolio/stream1Honey.png';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage2 from '../images/portfolio/portfolio-2.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -35,8 +35,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Oriol Personal Webpage',
+  description: "Oriol's personal webpage",
 };
 
 /**
@@ -97,9 +97,11 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I studied Aerospace Engineering at EETAC, UPC (Universitat Politècnica de Catalunya) - Castelldefels, and obtained my M.S. in Computational and Mathematical Engineering from UOC (Universitat Oberta de Catalunya) & URV (Universitat Rovira i Virgili) specializing in artificial intelligence and machine learning.
+
+Proactive, a fast learner, and a hard worker both autonomously and in teams. My interests include fluid dynamics, computer vision, artificial intelligence, cryptocurrency and big data analysis.
+
+In my free time, I enjoy going for a ride in my motorcycle. I also like to ski, scuba dive and try out new experiences.`,
   aboutItems: [
     {label: 'Location', text: 'Barcelona', Icon: MapIcon},
     {label: 'Age', text: '27', Icon: CalendarIcon},
@@ -191,9 +193,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: stream1Honey,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Final phase of the Water Tunnel',
+    description: 'Testing the water tunnel.',
+    url: 'https://www.linkedin.com/feed/update/urn:li:activity:6584783844724084736/',
     image: porfolioImage2,
   },
 ];
@@ -203,39 +205,91 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'June 2019',
+    location: 'Universitat Oberta de Catalunya & Universitat Rovira i Virgili, (UOC & URV)',
+    title: 'MSc in Computational and Mathematical Engineering (ICyM)',
+    content: <p>Interdisciplinary training in the areas of engineering and applied sciences. The ICyM programme includes current issues such
+as: computer modeling and simulation, numerical methods, parallel and distributed computing applied to high-end
+performance machines, knowledge representation, networks and graphs, heuristic optimization, artificial intelligence,
+dynamics systems, differential equations, computational fluid dynamics and Big Data.
+</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'June 2019',
+    location: 'Universitat Politècnica de Catalunya, Escola d Enginyeria de Telecomunicació i Aeroespacial de Castelldefels, (EETAC)',
+    title: 'Aerospace Systems Engineering',
+    content: <p>Specialized in Avionics, communication, Navigation and Surveillance Systems (CNS) and Air Traffic Management (ATM).
+Advanced knowledge of navigability, communication, geolocation and observation satellites, space engineering, electronics,
+aerodynamics, flight mechanics and flight control systems. Experience in route planning, airspace management and the
+implementation, development and maintenance of ATM and CNS systems, aerodynamics and computational fluid dynamics.
+High level of programing and critical thinking.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'July 2022 - Present',
+    location: 'GE Renewable, AGAP2',
+    title: 'Data Analyst & Analytics Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        - Lead the development of analytics capable of predicting possible failures, maintenance dates, misalignments and other turbine
+        points of failure, introducing innovative techniques where possible.
+        - Lead a continuous improvement monitoring for detection of possible defects or development of new features for the existing
+        analytics, implementing an analytics lifecycle capable to adapt to a changing world.
+        - Skills used: Interdisciplinary group management, Python, SQL, Azure
+
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'March 2020 - July 2022',
+    location: 'DENN, Industries Puigjaner',
+    title: 'Project Manager & Data Analyst',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        - Lead the innovation and development of applications capable of predicting trajectories, maintenance and status of machinery
+        elements, given real-time and historical data obtained with a cloud of sensors including pressure, force, velocity and
+        temperature. This was the starting point for the creation of machine learning algorithms to predict the quality of the final product.
+        - The framework developed for the real-time and historical data processing led to the design and development of bespoke
+        applications to improve the customer's interaction with products, such as automatically generated bi-annual detailed reports
+        containing information that span from energetical consumption to machine wear and expected maintenance.
+        - Skills used: Project management, Interdisciplinary group management, Python, MongoDB, ReactJS, HDF5
+
+      </p>
+    ),
+  },
+  {
+    date: 'April 2019 - March 2020',
+    location: 'APPlus IDIADA',
+    title: 'Full Stack Developer & I+D',
+    content: (
+      <p>
+        - In order to improve the interaction and the post-processing of the data obtained during different tests, a software application
+        was designed for internal use to plot, extract and modify the data. This application is capable of processing large chunks of data
+        (up to 60 GBytes per file) and to speed-up the post-processing, allowing the engineers in charge to more easily and accurately
+        draw conclusions.
+        - The detection of phenomena is important in real-time tests so the test engineer can adapt to the conditions. An algorithm was
+        designed and implemented to detect these phenomena and send instructions to the lead test engineer. This led to more accurate
+        tests and time reduction.
+        - Skills used: Project management, Interdisciplinary group management, Python, Matlab
+      </p>
+    ),
+  },
+  {
+    date: 'June 2018 - November 2018 (Internship)',
+    location: 'Quiside Industries S.L',
+    title: 'BACK-END DEVELOPER & I+D',
+    content: (
+      <p>
+        - The main goal was to refactorize and integrate a code interacting with a FPGA (Field Programmable Gate Array) dispositive. The
+        code performance and the interaction with the user was improved. Later on, this code was used in the investigation and
+        developing tasks. This improved code was later used in the investigation and development of other tasks.
+        - Investigation and implementation of Monte Carlo simulations in finance and fluid dynamics, using the improved code mentioned
+        above. Monte Carlo simulations use random numbers to numerically solve problems that are too difficult to solve with conventional
+        analytical methods, problems such as fluid dynamics, where there is not an analytical solution.
+        - Skills used: C++, Python, Microsoft Project, LaTex, OpenFoam
+
       </p>
     ),
   },
@@ -244,26 +298,26 @@ export const experience: TimelineItem[] = [
 /**
  * Testimonial section
  */
-export const testimonial: TestimonialSection = {
-  imageSrc: testimonialImage,
-  testimonials: [
-    {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
-    {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
-    },
-  ],
-};
+// export const testimonial: TestimonialSection = {
+//   imageSrc: testimonialImage,
+//   testimonials: [
+//     {
+//       name: 'John Doe',
+//       text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+//       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+//     },
+//     {
+//       name: 'Jane Doe',
+//       text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+//       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+//     },
+//     {
+//       name: 'Someone else',
+//       text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+//       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+//     },
+//   ],
+// };
 
 /**
  * Contact section
@@ -275,23 +329,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'brascooriol@gmail.com',
+      href: 'mailto:brascooriol@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Barcelona, Spain',
+      href: 'https://www.google.com/maps/place/Barcelona/@41.3927755,2.0701494,12z/data=!3m1!4b1!4m5!3m4!1s0x12a49816718e30e5:0x44b0fb3d4f47660a!8m2!3d41.3873974!4d2.168568',
     },
+//     {
+//       type: ContactType.Instagram,
+//       text: '@tbakerx',
+//       href: 'https://www.instagram.com/tbakerx/',
+//     },
     {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
-    {
-      type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      type: ContactType.linkedin,
+      text: 'Oriol Brascó',
+      href: 'https://www.linkedin.com/in/brascooriol/',
     },
   ],
 };
@@ -300,9 +354,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+//   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
+//   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/brascooriol/'},
+//   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
+//   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
