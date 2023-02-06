@@ -343,7 +343,7 @@ export const contact: ContactSection = {
 //       href: 'https://www.instagram.com/tbakerx/',
 //     },
     {
-      type: ContactType.linkedin,
+      type: ContactType.LinkedIn,
       text: 'Oriol Brascó',
       href: 'https://www.linkedin.com/in/brascooriol/',
     },
