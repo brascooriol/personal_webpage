@@ -17,7 +17,7 @@ import heroImage from '../images/header-background.webp';
 import stream1Honey from '../images/portfolio/stream1Honey.png';
 import porfolioImage2 from '../images/portfolio/portfolio-2.png';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
+// import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
