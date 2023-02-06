@@ -16,7 +16,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import stream1Honey from '../images/portfolio/stream1Honey.png';
 import watertunnel2 from '../images/portfolio/watertunnel2.png';
-import drone_image from '../images/portfolio/drone.JPG';
+import drone_image from '../images/portfolio/drone.png';
 import profilepic from '../images/profilepic.jpg';
 // import testimonialImage from '../images/testimonial.webp';
 import {
