@@ -15,7 +15,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import stream1Honey from '../images/portfolio/stream1Honey.png';
-import porfolioImage2 from '../images/portfolio/watertunnel2.png';
+import watertunnel2 from '../images/portfolio/watertunnel2.JPG';
 import profilepic from '../images/profilepic.jpg';
 // import testimonialImage from '../images/testimonial.webp';
 import {
@@ -196,7 +196,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Final phase of the Water Tunnel',
     description: 'Testing the water tunnel.',
     url: 'https://www.linkedin.com/feed/update/urn:li:activity:6584783844724084736/',
-    image: porfolioImage2,
+    image: watertunnel2,
   },
 ];
 
