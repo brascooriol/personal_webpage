@@ -73,15 +73,20 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am an engineer with working experience, eager to expand my knowledge and professional skills.
-        I adapt to new challenges and work requirements through continuous self-learning.
-         I consider myself a committed, responsible and curious person.
+        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
+        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
+        registrar and site builder.
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
+        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
+        <strong className="text-stone-100">Vancouver Island</strong>.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/ingeniero aeroespacial.pdf',
+      href: '/assets/resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -145,21 +150,21 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
-        name: 'C++',
+        name: 'C++, C#, C',
         level: 7,
       },
       {
-        name: 'C#',
+        name: 'Django, ReactJS',
         level: 7,
       },
       {
-        name: 'C#',
+        name: 'MongoDB, SQL',
         level: 7,
       },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Engineering Tools',
     skills: [
       {
         name: 'Node.js',
@@ -368,7 +373,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/brascooriol/'},
-
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
