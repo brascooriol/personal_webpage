@@ -15,7 +15,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import stream1Honey from '../images/portfolio/stream1Honey.png';
-import watertunnel2 from '../images/portfolio/watertunnel2.JPG';
+import watertunnel2 from '../images/portfolio/watertunnel2.png';
 import profilepic from '../images/profilepic.jpg';
 // import testimonialImage from '../images/testimonial.webp';
 import {
