@@ -16,6 +16,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import stream1Honey from '../images/portfolio/stream1Honey.png';
 import watertunnel2 from '../images/portfolio/watertunnel2.png';
+import drone_image from '../images/portfolio/drone.JPG';
 import profilepic from '../images/profilepic.jpg';
 // import testimonialImage from '../images/testimonial.webp';
 import {
@@ -197,6 +198,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Testing the water tunnel.',
     url: 'https://www.linkedin.com/feed/update/urn:li:activity:6584783844724084736/',
     image: watertunnel2,
+  },
+  {
+    title: 'Building a fully operational drone',
+    description: 'Building from scratch and using Pixhawk a fully operational drone.',
+//     url: 'https://www.linkedin.com/feed/update/urn:li:activity:6584783844724084736/',
+    image: drone_image,
   },
 ];
 
