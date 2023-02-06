@@ -103,12 +103,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
+    {label: 'Location', text: 'Barcelona', Icon: MapIcon},
+    {label: 'Age', text: '27', Icon: CalendarIcon},
+
     {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Study', text: 'Universitat Politècnica de Catalunya', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Agap2, General Electric consultor', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -120,33 +120,41 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'Catalan',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Spanish',
+        level: 10,
       },
       {
-        name: 'Spanish',
-        level: 3,
+        name: 'English',
+        level: 7,
+      },
+      {
+        name: 'German',
+        level: 4,
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Software development',
     skills: [
       {
-        name: 'React',
+        name: 'Python',
         level: 9,
       },
       {
-        name: 'Typescript',
+        name: 'C++',
         level: 7,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'C#',
+        level: 7,
+      },
+      {
+        name: 'C#',
+        level: 7,
       },
     ],
   },
