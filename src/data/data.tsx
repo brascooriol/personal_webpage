@@ -8,11 +8,11 @@ import {
   SparklesIcon,
 } from '@heroicons/react/outline';
 
-import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
+// import GithubIcon from '../components/Icon/GithubIcon';
+// import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+// import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import stream1Honey from '../images/portfolio/stream1Honey.png';
 import porfolioImage2 from '../images/portfolio/portfolio-2.png';
