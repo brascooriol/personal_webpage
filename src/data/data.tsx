@@ -14,7 +14,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import stream1Honey from '../images/portfolio/stream1Honey.png';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
@@ -73,20 +73,22 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        I am an engineer with working
+        experience, eager to expand
+        my knowledge and professional
+        skills. I adapt to new challenges
+        and work requirements through
+        continuous self-learning. I
+        consider myself a committed,
+        responsible and curious
+        person.
+
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/assets/ingeniero aeroespacial.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -111,7 +113,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'Barcelona', Icon: MapIcon},
     {label: 'Age', text: '27', Icon: CalendarIcon},
 
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Motorcycles, Cars, Computers, Sports, Scuba Diving', Icon: SparklesIcon},
     {label: 'Study', text: 'Universitat Politècnica de Catalunya', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Agap2, General Electric consultor', Icon: OfficeBuildingIcon},
   ],
@@ -167,36 +169,24 @@ export const skills: SkillGroup[] = [
     name: 'Engineering Tools',
     skills: [
       {
-        name: 'Node.js',
+        name: 'Matlab, Octave',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'OpenFoam',
+        level: 8,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'Solid Works, Ansys, Qblade',
+        level: 7,
+      },
+      {
+        name: 'LaTex, Office',
+        level: 10,
       },
     ],
   },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
-      },
-    ],
-  },
+
 ];
 
 /**
@@ -204,70 +194,16 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage1,
+    title: 'Water tunnel design, construction and comissioning',
+    description: 'This document covers the study, design and construction of a low cost Water Tunnel to perform practical studies and lab work at EETAC (UPC Castelldefels). This project has been divided in three principal phases: Study, Design and Construction. In the first phase of the project, a theoretical study regarding the fluid dynamics of water tunnels has been done. This study is essential in order to get an optimal design of the Water Tunnel and also fulfil the initial design requirements. The main design requirements are to achieve a homogeneous velocity at the test region and the capacity to work with Reynolds numbers comprised between 500 and 1000. Once these requirements were established, the design phase started. SolidWorks was used to create the design. Once the design was created, it needs to be validated. For this purpose, three different simulations were performed in order to validate the design with a Computational Fluid Dynamics (CFD) software. The chosen software was ANSYS. The objective of the first simulation was to validate the property of symmetry inside the Water Tunnel. The symmetry inside the Water Tunnel was proved and a second simulation with half the control volume and a finer mesh was realized. Finally, in order to prove the mesh convergence, one last simulation was done. All these simulations proved that the Water Tunnel design fulfilled all the initial design requirements. The construction procedure begun once the design was validated. This last phase is still ongoing; the tunnel is being built by Metalvent S.A company. This Water Tunnel has been designed with the objective of reducing costs when compared it with other water tunnels build globally. Also, the size of the Water Tunnel is also minimized so it can be a part of the laboratory equipment in EETAC. This Water Tunnel will be an interesting contribution to the University equipment, and thanks to it, other projects will be done, from implementing new systems that improve the Water tunnel to experiments that uses the Water Tunnel as the main tool.',
+    url: 'https://upcommons.upc.edu/handle/2117/167037',
+    image: stream1Honey,
   },
   {
     title: 'Project title 2',
     description: 'Give a short description of your project here.',
     url: 'https://timbaker.me',
     image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage11,
   },
 ];
 
