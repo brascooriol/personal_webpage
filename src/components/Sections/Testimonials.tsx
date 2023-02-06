@@ -50,13 +50,13 @@ const Testimonials: FC = memo(() => {
     },
     [],
   );
-  const next = useCallback(() => {
-    if (activeIndex + 1 === testimonials.length) {
-      setTestimonial(0)();
-    } else {
-      setTestimonial(activeIndex + 1)();
-    }
-  }, [activeIndex, setTestimonial, testimonials.length]);
+//   const next = useCallback(() => {
+//     if (activeIndex + 1 === testimonials.length) {
+//       setTestimonial(0)();
+//     } else {
+//       setTestimonial(activeIndex + 1)();
+//     }
+//   }, [activeIndex, setTestimonial, testimonials.length]);
 
   const handleScroll = useCallback<UIEventHandler<HTMLDivElement>>(event => {
     setScrollValue(event.currentTarget.scrollLeft);

@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc8514b6-279e-4296-83d1-ab634fe8070b" name="Changes" comment="- First page + foto">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/data.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="bc8514b6-279e-4296-83d1-ab634fe8070b" name="Changes" comment="- Fix testimonial" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +79,28 @@
       <option name="project" value="LOCAL" />
       <updated>1675686256382</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- First page + foto">
+      <created>1675693685796</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675693685796</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- Fix testimonial">
+      <created>1675693840832</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675693840832</updated>
+    </task>
+    <task id="LOCAL-00009" summary="- Fix testimonial">
+      <created>1675693960001</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675693960001</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Second commit" />
     <MESSAGE value="- First page + foto" />
-    <option name="LAST_COMMIT_MESSAGE" value="- First page + foto" />
+    <MESSAGE value="- Fix testimonial" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Fix testimonial" />
   </component>
 </project>
