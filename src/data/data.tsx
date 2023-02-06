@@ -212,7 +212,7 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'June 2019',
+    date: 'October 2020',
     location: 'Universitat Oberta de Catalunya & Universitat Rovira i Virgili, (UOC & URV)',
     title: 'MSc in Computational and Mathematical Engineering (ICyM)',
     content: <p>Interdisciplinary training in the areas of engineering and applied sciences. The ICyM programme includes current issues such
